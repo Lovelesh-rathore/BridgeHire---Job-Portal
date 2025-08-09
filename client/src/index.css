@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,900;1,900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-mulish: "Mulish", sans-serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
